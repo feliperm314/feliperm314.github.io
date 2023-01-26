@@ -1,5 +1,5 @@
 img {
-  height: 150px;
+  height: 120px;
 }
 
 hr{
@@ -17,12 +17,31 @@ h1 {
   color: #281207;
 }
 
+h3{
+  padding-left: 3%;
+}
+
+
 body {
-  background-color: #f3eae8;
+  background-color:#f3eae8;
 }
 
 .emoji-size {
   width: 30px;
   height: 30px;
   object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color:dodgerblue
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f3eae8;
+  color: lightskyblue;
+}
+
+.intro {
+  padding-left: 1%;
 }
